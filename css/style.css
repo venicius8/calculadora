@@ -1,0 +1,51 @@
+body{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border: 1px solid black;
+    width: 270px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 185, 120);
+}
+
+#input{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+button{
+    width: 60px;
+    height: 50px;
+    background-color: rgb(255, 224, 183);
+    border:  1px solid;
+    margin: 1px;
+    border-radius: 5px;
+    transition: 0.25s;
+}
+
+button:hover{
+    background-color: rgb(230, 206, 176);
+    box-shadow: 2px 2px 8px gray;
+}
+
+.operador{
+    background-color: rgb(230, 206, 176);
+}
+
+#print{
+    background-color: aliceblue;
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}

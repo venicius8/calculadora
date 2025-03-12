@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Básica</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.0.0/math.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <input id="print">
+        <input id="input" placeholder="2+3">
+        <div class="botoes">
+            <button onclick="num(1)">1</button>
+            <button onclick="num(2)">2</button>
+            <button onclick="num(3)">3</button>
+            <button class="operador" onclick="num('+')">+</button><br>
+            <button onclick="num(4)">4</button>
+            <button onclick="num(5)">5</button>
+            <button onclick="num(6)">6</button>
+            <button class="operador"  onclick="num('-')">-</button><br>
+            <button onclick="num(7)">7</button>
+            <button onclick="num(8)">8</button>
+            <button onclick="num(9)">9</button>
+            <button class="operador"  onclick="num('*')">&times;</button><br>
+            <button style="background-color: rgb(255, 112, 112);" onclick="del()">&#9003</button>
+            <button onclick="num(0)">0</button>
+            <button style="background-color: rgb(87, 207, 127);" onclick="enter()">=</button>
+            <button class="operador"  onclick="num('/')">&divide;</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
